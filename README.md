@@ -355,8 +355,25 @@ progress/ meter      عداد الو نسبة
 
 *******************************************************************************************************************************
 
-*****************************************************************************************************************************
 
+*****************************************************************************************************************************
+   <video controls loop autoplay muted preload="auto">
+        <source src="video.mp4" type="video/mp4">
+        <source src="video.webm" type="video/webm">
+        <source src="video.ogv" type="video/ogg">
+        Your browser does not support the video tag.
+        <track src="subtitles_ar.vtt" kind="subtitles" srclang="ar" label="العربية">
+        <track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English">
+    </video>    تم وضع السورس للاختيار منه  حسب المتصفح شو بشغل
+    **************************************************************************************************************************
+  <audio controls loop autoplay muted preload="auto">
+        <source src="audio.mp3" type="audio/mpeg">
+        <source src="audio.ogg" type="audio/ogg">
+        Your browser does not support the audio tag.
+    </audio>
+    ************************************************************************************************************************************************
+
+    
 
 
 
