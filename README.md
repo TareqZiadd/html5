@@ -371,7 +371,29 @@ progress/ meter      عداد الو نسبة
         <source src="audio.ogg" type="audio/ogg">
         Your browser does not support the audio tag.
     </audio>
-    ************************************************************************************************************************************************
+************************************************************************************************************************************************
+****************************************************************************************************
+                        input type=  ""
+***********************************************************************
+**************************************************************************
+
+<form >
+<input type="range"> range
+<input type="number"> number
+<input type="color"> color
+<input type="submit"> submit
+<input type="checkbox"> checkbox
+<input type="datetime-local">\ datetime.local
+<input type="search">\ search
+<input type="email">
+<input type="image">
+<input type="tel">
+<input type="url">
+<input type="email">
+<input type="week">
+
+
+*****************************
 
     
 
