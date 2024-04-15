@@ -1,3 +1,4 @@
+
 #https://www.youtube.com/watch?v=cX5wHCWjglI&list=PLDoPjvoNmBAyXCAQMLhDRZsLi_HurqTBZ&index=7
 #
 
@@ -242,7 +243,56 @@ progress/ meter      عداد الو نسبة
 **********************************************************************************************
 <p> <bdi>ابو العصاية</bdi>  m3llem shawerma</p>    يساعد في انك تخلي العربي عليسار ومايصير لخبطة بالمرة
 
+***********************************************************************************************
+                      <dialog open> </dialog>
+***********************************************************************************************************
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dialog Example</title>
+    <style>
+        /* تخصيص نمط النافذة الحوارية */
+        #myDialog {
+            width: 300px;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- عنصر النافذة الحوارية -->
+    <dialog id="myDialog" open>
+        <p>هذا مثال لنافذة حوارية تظهر تلقائياً عند تحميل الصفحة!</p>
+        <button onclick="closeDialog()">إغلاق</button>
+    </dialog>
 
+    <!-- زر لفتح النافذة الحوارية -->
+    <button onclick="openDialog()">افتح النافذة الحوارية</button>
+
+    <script>
+        // دالة لفتح النافذة الحوارية
+        function openDialog() {
+            var dialog = document.getElementById("myDialog");
+            dialog.showModal();
+        }
+
+        // دالة لإغلاق النافذة الحوارية
+        function closeDialog() {
+            var dialog = document.getElementById("myDialog");
+            dialog.close();
+        }
+    </script>
+</body>
+</html>
+
+*****************************************************************************************************************************************
+
+***************************************************************************************************************************************
 
 ******************************************************************************************************************************************
 
